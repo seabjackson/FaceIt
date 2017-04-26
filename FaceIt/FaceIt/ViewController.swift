@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         }
     }
     
-    var expression = FacialExpression(eyes: .open, mouth: .grin) {
+    var expression = FacialExpression(eyes: .closed, mouth: .frown) {
         didSet {
             updateUI()
         }
@@ -47,4 +47,6 @@ class ViewController: UIViewController {
     ]
 
 }
+
+
 
